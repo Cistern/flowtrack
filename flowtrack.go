@@ -87,7 +87,7 @@ func PrintTopN(n int) {
 			break
 		}
 
-		fmt.Printf("%s [%d packets]\n", key, topDestBytes[key])
+		fmt.Printf("%s [%d bytes]\n", key, topDestBytes[key])
 	}
 
 	fmt.Println("\nTotal flows seen this window:", len(topFlowsBytes))
